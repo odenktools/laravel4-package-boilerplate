@@ -1,0 +1,1 @@
+{{ HTML::style('packages/odenktools/coolcms/css/style.css') }}

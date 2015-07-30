@@ -1,0 +1,32 @@
+{
+    "name": "odenktools/coolcms",
+    "description": "",
+    "authors": [
+        {
+            "name": "Odenktools",
+            "email": "odenktools86@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+		"laravelbook/ardent": "dev-master",
+		"illuminate/html": "4.2.*"
+    },
+    "require-dev": {
+        "illuminate/auth": "~4.2",
+        "illuminate/console": "~4.2",
+        "illuminate/database": "~4.2"
+    },	
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+			"src/controllers",
+			"src/models"
+        ],
+        "psr-4": {
+            "Odenktools\\Coolcms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
