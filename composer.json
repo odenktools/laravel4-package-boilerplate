@@ -31,7 +31,7 @@
 			"src/models"
         ],
         "psr-4": {
-            "Odenktools\\Coolcms\\": "src/"
+            "Odenktools\\Coolcms\\": "src/Coolcms/"
         }
     },
     "minimum-stability": "stable"
