@@ -1,10 +1,16 @@
 {
     "name": "odenktools/coolcms",
-    "description": "",
+    "description": "Laravel 4 Framework Package Boilerplate. This small blueprint for creating laravel4 package",
+	"type": "library",
+	"keywords": ["laravel", "boilerplate","laravel package"],
+	"homepage": "https://github.com/odenktools/laravel4-package-boilerplate",
+	"license": "MIT",
     "authors": [
         {
             "name": "Odenktools",
-            "email": "odenktools86@gmail.com"
+            "email": "odenktools86@gmail.com",
+			"homepage": "http://odenktools.com",
+            "role": "Developer"	
         }
     ],
     "require": {
